@@ -128,7 +128,7 @@ intersphinx_mapping = {
 
 
 # Add any paths that contain templates here, relative to this directory.
-templates_path = ['_templates',
+templates_path = [f'{ROOT}/doc/_templates',
                   xinetzone.get_html_template_path(),
                   ablog.get_html_templates_path()]
 
