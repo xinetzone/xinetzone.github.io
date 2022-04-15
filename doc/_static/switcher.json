@@ -1,0 +1,12 @@
+[
+  {
+    "name": "main",
+    "version": "main",
+    "url": "https://xinetzone.github.io/"
+  },
+  {
+    "name": "en",
+    "version": "en",
+    "url": "https://xinetzone.github.io/en/"
+  }
+]
