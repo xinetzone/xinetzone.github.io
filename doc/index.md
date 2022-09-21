@@ -5,9 +5,10 @@
 :maxdepth: 2
 :hidden:
 
+inventory/index
 help/index
 about/index
-draft/index
+drafts/index
 ```
 
 # 索引和表格

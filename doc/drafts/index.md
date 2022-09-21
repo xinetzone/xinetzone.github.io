@@ -1,9 +1,10 @@
-# 帮助
+# 回收站
 
 ```{toctree}
 :hidden:
 :glob:
 
-git/index
 *
+tools/index
+todo/index
 ```

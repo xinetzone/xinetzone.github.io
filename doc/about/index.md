@@ -4,9 +4,8 @@
 :maxdepth: 2
 :hidden:
 
-inventory/index
+bibliography
 CODE_OF_CONDUCT
 CONTRIBUTING
 SECURITY
-bibliography
 ```

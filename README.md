@@ -17,8 +17,6 @@
 
 [gitter-badge]: https://badges.gitter.im/xinetzone/blogs.svg
 [gitter-link]: https://gitter.im/xinetzone/blogs?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge
-[pypi-badge]: https://img.shields.io/pypi/v/xinetzone.github.io.svg
-[pypi-link]: https://pypi.org/project/xinetzone
 [issue-badge]: https://img.shields.io/github/issues/xinetzone/xinetzone.github.io
 [issue-link]: https://github.com/xinetzone/xinetzone.github.io/issues
 [fork-badge]: https://img.shields.io/github/forks/xinetzone/xinetzone.github.io
@@ -33,8 +31,9 @@
 [watcher-link]: https://github.com/xinetzone/xinetzone.github.io/watchers
 [binder-badge]: https://mybinder.org/badge_logo.svg
 [binder-link]: https://mybinder.org/v2/gh/xinetzone/xinetzone.github.io/main
-[install-badge]: https://img.shields.io/pypi/dw/xinetzone.github.io?label=pypi%20installs
-[install-link]: https://pypistats.org/packages/xinetzone.github.io
-[status-badge]: https://readthedocs.org/projects/xinetzone.github.io/badge/?version=latest
+[install-badge]: https://img.shields.io/pypi/dw/xinetzone?label=pypi%20installs
+[install-link]: https://pypistats.org/packages/xinetzone
 [download-badge]: https://pepy.tech/badge/xinetzone
 [download-link]: https://pepy.tech/project/xinetzone
+[pypi-badge]: https://img.shields.io/pypi/v/xinetzone.svg
+[pypi-link]: https://pypi.org/project/xinetzone

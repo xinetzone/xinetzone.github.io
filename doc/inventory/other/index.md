@@ -1,6 +1,7 @@
-# 项目
+# 其他项目
 
 ```{toctree}
+:hidden:
 :glob:
 
 *

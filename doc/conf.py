@@ -37,6 +37,7 @@ extensions = [
     "xyzstyle",
     'myst_nb',
     'sphinx.ext.intersphinx',
+    "sphinx.ext.extlinks",
     'sphinx_copybutton',
     'sphinx.ext.autosummary',
     "sphinx.ext.viewcode",
@@ -94,6 +95,15 @@ nb_mime_priority_overrides = [
     ('latex', 'image/jpeg', None),  # 禁用
     # ('*', 'customtype', 20)
 ]
+
+comments_config = {
+    "hypothesis": True,
+    "dokieli": False,
+    "utterances": {
+        "repo": "xinetzone/xinetzone.github.io",
+        "optional": "config",
+    }
+}
 
 # -- 国际化输出 ----------------------------------------------------------------
 gettext_compact = False
