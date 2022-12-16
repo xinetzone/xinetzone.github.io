@@ -5,8 +5,9 @@
 :maxdepth: 2
 :hidden:
 
+web/index
 inventory/index
-help/index
+tips/index
 about/index
 drafts/index
 ```

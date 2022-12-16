@@ -1,14 +1,3 @@
-# Configuration file for the Sphinx documentation builder.
-#
-# This file only contains a selection of the most common options. For a full
-# list see the documentation:
-# https://www.sphinx-doc.org/en/master/usage/configuration.html
-
-# -- Path setup --------------------------------------------------------------
-
-# If extensions (or modules to document with autodoc) are in another directory,
-# add these directories to sys.path here. If the directory is relative to the
-# documentation root, use os.path.abspath to make it absolute, like shown here.
 import sys
 from pathlib import Path
 
@@ -20,7 +9,7 @@ if sys.platform == 'win32':
     import asyncio
     asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
 
-project = 'tvm-book'
+project = 'xinetzone'
 copyright = '2022, xinetzone'
 author = 'xinetzone'
 
@@ -154,7 +143,7 @@ intersphinx_mapping = {
 
 # ``pydata-sphinx-theme`` 配置
 # Define the json_url for our version switcher.
-json_url = 'https://xinetzone.github.io/tvm-book/_static/switcher.json'
+json_url = 'https://xinetzone.github.io/_static/switcher.json'
 
 version = release
 
@@ -178,8 +167,8 @@ html_theme_options = {
     "navbar_align": "content", # "right", "left", "content"
     "navbar_start": "navbar-logo.html",
     "navbar_center": "navbar-nav.html",
-    "navbar_end": ["search-field.html", "theme-switcher", "version-switcher", "navbar-icon-links"],
-    "left_sidebar_end": "sidebar-ethical-ads.html",
+    "navbar_end": ["theme-switcher", "version-switcher", "navbar-icon-links"],
+    "left_sidebar_end": ["search-field.html", "sidebar-ethical-ads.html"],
     "page_sidebar_items": ["page-toc.html", "edit-this-page.html"],
     # "page_sidebar_items": [], # 删除右侧边栏
     "footer_items": ["copyright", "sphinx-version", "last-updated", ],
@@ -195,7 +184,7 @@ html_sidebars = {
 
 html_context = {
     "github_user": "xinetzone",
-    "github_repo": "tvm-book",
+    "github_repo": "xinetzone.github.io",
     "github_version": "main",
     "doc_path": "doc",
 }

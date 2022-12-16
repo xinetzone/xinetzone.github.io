@@ -1,7 +1,6 @@
-# 帮助
+# 菁华
 
 ```{toctree}
-:hidden:
 :glob:
 
 git/index

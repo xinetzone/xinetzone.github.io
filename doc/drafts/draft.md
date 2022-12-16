@@ -21,7 +21,7 @@
 - [SVG animation with SMIL - SVG: Scalable Vector Graphics | MDN (mozilla.org)](https://developer.mozilla.org/en-US/docs/Web/SVG/SVG_animation_with_SMIL)
 - [SVG Tutorial (w3schools.com)](https://www.w3schools.com/graphics/svg_intro.asp)
 
-## Web
+## Web 资料
 
 - [Web 开发者指南 | MDN (mozilla.org)](https://developer.mozilla.org/zh-CN/docs/Web/Guide)
 - [Event developer guide | MDN (mozilla.org)](https://developer.mozilla.org/zh-CN/docs/orphaned/Web/Guide/Events)

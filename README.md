@@ -9,7 +9,6 @@
 [![contributors][contributor-badge]][contributor-link]
 [![watcher][watcher-badge]][watcher-link]
 [![Binder][binder-badge]][binder-link]
-[![Downloads][download-badge]][download-link]
 [![PyPI][pypi-badge]][pypi-link]
 [![PyPI - Downloads][install-badge]][install-link]
 
@@ -33,7 +32,5 @@
 [binder-link]: https://mybinder.org/v2/gh/xinetzone/xinetzone.github.io/main
 [install-badge]: https://img.shields.io/pypi/dw/xinetzone?label=pypi%20installs
 [install-link]: https://pypistats.org/packages/xinetzone
-[download-badge]: https://pepy.tech/badge/xinetzone
-[download-link]: https://pepy.tech/project/xinetzone
 [pypi-badge]: https://img.shields.io/pypi/v/xinetzone.svg
 [pypi-link]: https://pypi.org/project/xinetzone
