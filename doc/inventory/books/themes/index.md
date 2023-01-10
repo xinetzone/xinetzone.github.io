@@ -1,10 +1,12 @@
 # Sphinx 主题库
 
-````{tab-set}
-```{tab-item} xyzstyle
-{xinetzone}`xyzstyle`: 打造优质的书库模板。
+```{admonition} Sphinx 主题库
+<a href="https://xinetzone.github.io/xyzstyle">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?show_owner=true&username=xinetzone&repo=xyzstyle" />
+</a>
+
+<a href="https://xinetzone.github.io/xbook">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?show_owner=true&username=xinetzone&repo=xbook" />
+</a>
 ```
-```{tab-item} xbook
-{xinetzone}`xbook`: 打造优质的笔记模板。
-```
-````
+

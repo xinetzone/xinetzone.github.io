@@ -122,28 +122,16 @@ html_favicon = '_static/images/favicon.jpg'
 
 html_last_updated_fmt = '%Y-%m-%d, %H:%M:%S'
 
-extlinks = {
-    # 'duref': ('https://docutils.sourceforge.io/docs/ref/rst/'
-    #           'restructuredtext.html#%s', ''),
-    # 'durole': ('https://docutils.sourceforge.io/docs/ref/rst/'
-    #            'roles.html#%s', ''),
-    # 'dudir': ('https://docutils.sourceforge.io/docs/ref/rst/'
-    #           'directives.html#%s', ''),
-    'github': ('https://github.com/%s', ''),
-    'daobook': ('https://daobook.github.io/%s', ''),
-    'xinetzone': ('https://xinetzone.github.io/%s', ''),
-}
-
 intersphinx_mapping = {
     'python': ('https://daobook.github.io/cpython', None),
     'sphinx': ('https://daobook.github.io/sphinx', None),
     'peps': ('https://daobook.github.io/peps', None),
     'wiki': ('https://xinetzone.github.io/wiki/', None)
 }
-
+html_baseurl = "https://xinetzone.github.io"
 # ``pydata-sphinx-theme`` 配置
 # Define the json_url for our version switcher.
-json_url = 'https://xinetzone.github.io/_static/switcher.json'
+json_url = f'{html_baseurl}/_static/switcher.json'
 
 version = release
 

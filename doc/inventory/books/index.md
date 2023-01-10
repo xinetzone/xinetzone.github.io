@@ -3,5 +3,5 @@
 ```{toctree}
 python/index
 themes/index
-others/index
+vision/index
 ```

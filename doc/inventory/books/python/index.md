@@ -1,7 +1,7 @@
 # Python 库
 
-````{tab-set}
-```{tab-item} d2py
-{xinetzone}`d2py`: Python 学习手册。
+```{admonition} 动手学习
+<a href="https://xinetzone.github.io/d2py">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?show_owner=true&username=xinetzone&repo=d2py" />
+</a>
 ```
-````
