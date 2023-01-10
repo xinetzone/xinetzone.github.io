@@ -7,7 +7,6 @@
 
 web/index
 inventory/index
-tips/index
 about/index
 drafts/index
 ```

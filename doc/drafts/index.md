@@ -7,4 +7,5 @@
 *
 tools/index
 todo/index
+tips/index
 ```
