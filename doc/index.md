@@ -6,6 +6,7 @@
 :hidden:
 
 explore/index
+compile/index
 posts/index
 inventory/index
 drafts/index
