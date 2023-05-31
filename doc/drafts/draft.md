@@ -73,7 +73,3 @@
 
 - [opencv 手势手语识别 - 国内版 Bing](https://cn.bing.com/search?q=opencv+%E6%89%8B%E5%8A%BF%E6%89%8B%E8%AF%AD%E8%AF%86%E5%88%AB&qs=n&form=QBRE&sp=-1&pq=opencv+%E6%89%8B%E5%8A%BF%E6%89%8B%E8%AF%AD%E8%AF%86%E5%88%AB&sc=2-13&sk=&cvid=CBD444E21A2747059D2061D637FD90F5)
 - [Python手势识别与控制 - demo例子集 - 博客园 (cnblogs.com)](https://www.cnblogs.com/demodashi/p/9437696.html)
-
-## 优质博客
-
-- [Stephen Kilcommins – Medium](https://stephenkilcommins.medium.com/)

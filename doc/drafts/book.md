@@ -99,7 +99,7 @@
 
 - [Free Python books - pythonbooks.org](https://pythonbooks.org/free-books/)
 
-## 博客
+## 优质博客
 
 - [Top 45 Python Blogs and Websites To Follow in 2021 (feedspot.com)](https://blog.feedspot.com/python_blogs/)
 - [iBooker - 可能是东半球最大的 AI 社区 | 欢迎大家贡献项目 -- ApacheCN 提供支持](https://www.apachecn.org/#/)
@@ -108,3 +108,4 @@
 - [Doocs](https://github.com/doocs)：GitHub 技术社区 Doocs，致力于打造一个内容完整、持续成长的互联网开发者学习生态圈！非常欢迎对技术、开源有热情的朋友加入。
 - [GitHub中文社区 (githubs.cn)](https://www.githubs.cn/)
 - [jupyter-widgets/tutorial: A tutorial for widgets (github.com)](https://github.com/jupyter-widgets/tutorial)
+- [Stephen Kilcommins – Medium](https://stephenkilcommins.medium.com/)

@@ -5,6 +5,8 @@
 :maxdepth: 2
 :hidden:
 
+explore/index
+posts/index
 inventory/index
 drafts/index
 about/index
