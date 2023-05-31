@@ -156,10 +156,9 @@ html_theme_options = {
     "navbar_start": "navbar-logo.html",
     "navbar_center": "navbar-nav.html",
     "navbar_end": ["theme-switcher", "version-switcher", "navbar-icon-links"],
-    "left_sidebar_end": ["sidebar-ethical-ads.html"],
-    "page_sidebar_items": ["search-field.html", "page-toc.html", "edit-this-page.html"],
-    # "page_sidebar_items": [], # 删除右侧边栏
-    "footer_items": ["copyright", "sphinx-version", "last-updated"],
+    "secondary_sidebar_items": ["search-field.html", "page-toc.html", "edit-this-page.html"],
+    "footer_start": ["copyright", "sphinx-version"],
+    "footer_end": ["last-updated", ],
     # "use_download_button": True,
     # "toc_title": "导航",
     # "single_page": True,
