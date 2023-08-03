@@ -10,6 +10,7 @@ compile/index
 posts/index
 inventory/index
 drafts/index
+chaos/index
 about/index
 ```
 
