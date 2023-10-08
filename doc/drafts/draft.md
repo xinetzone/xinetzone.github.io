@@ -57,6 +57,8 @@
 - [Python空间数据可视化利器之Geopandas - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/22914622)
 - [DataDrivenInvestor](https://medium.datadriveninvestor.com/)
 - [Metrics embed · Actions · GitHub Marketplace](https://github.com/marketplace/actions/metrics-embed)：生成您的指标，您可以嵌入任何地方，包括您的GitHub配置文件自述文件!它适用于用户和组织帐户，甚至存储库!
+- [实用导航](https://www.nav3.cn/)
+- [Watt Toolkit](https://steampp.net/)
 
 ## Jupyter
 
