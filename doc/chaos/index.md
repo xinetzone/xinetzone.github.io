@@ -2,4 +2,5 @@
 
 ```{toctree}
 doc
+AIGC<https://aigc.cn/>
 ```
