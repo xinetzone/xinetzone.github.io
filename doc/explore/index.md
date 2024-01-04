@@ -2,4 +2,5 @@
 
 ```{toctree}
 linux/index
+docker/index
 ```
