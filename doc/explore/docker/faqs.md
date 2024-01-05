@@ -10,26 +10,22 @@
 - `docker system prune` 命令可以用于清理磁盘，删除关闭的容器、无用的数据卷和网络，以及 dangling 镜像(即无 tag 的镜像)。
 - 迁移 `/var/lib/docker` 目录：
     1. `systemctl stop docker` 停止 docker 服务
-    2. 创建新的 docker 目录，执行命令 `df -h`，找一个大的磁盘。比如，`/home/`，并构建 `/home/docker/lib`
-    3. 迁移 `/var/lib/docker` 目录下面的文件到 `/home/docker/lib`:
+    2. 迁移 `/var/lib/docker` 目录下面的文件到 `/media/pc/data/docker/lib/docker`（任意非系统盘位置）:
         ```bash
-        rsync -avz /var/lib/docker /home/docker/lib/
+        sudo cp -r /var/lib/docker /media/pc/data/docker/lib/docker
         ```
-    4. 配置 `/etc/systemd/system/docker.service.d/devicemapper.conf`。查看 `devicemapper.conf` 是否存在。如果不存在，就新建。
+    3. 在 `vim /etc/docker/daemon.json` 中配置镜像和容器的保存位置，刚安装 docker 后没有该文件，需要新建。
+        ```
+        {
+            "data-root": "/media/pc/data/docker/lib/docker",
+            "storage-driver": "overlay2"
+        }
+        ```
+    4. 重新加载 docker:
         ```bash
-        sudo mkdir -p /etc/systemd/system/docker.service.d/
-        sudo vi /etc/systemd/system/docker.service.d/devicemapper.conf
+        sudo systemctl daemon-reload
+        sudo systemctl restart docker
+        sudo systemctl enable docker
         ```
-    5. 然后在 `devicemapper.conf` 写入：（同步的时候把父文件夹一并同步过来，实际上的目录应在 `/home/docker/lib/docker`）
-        ```
-        [Service]
-        ExecStart=
-        ExecStart=/usr/bin/dockerd  --graph=/home/docker/lib/docker
-        ```
-    6. 重新加载 docker:
-        ```bash
-        systemctl daemon-reload
-        systemctl restart docker
-        systemctl enable docker
-        ```
-    7. 确定容器没问题后删除 `/var/lib/docker/` 目录即可。
+    5. `docker info` 查看 docker 镜像存储位置是否符合预期。
+    6. 确定容器没问题后删除 `/var/lib/docker/` 目录即可。
