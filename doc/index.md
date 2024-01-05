@@ -7,7 +7,6 @@
 
 explore/index
 compile/index
-posts/index
 inventory/index
 drafts/index
 chaos/index

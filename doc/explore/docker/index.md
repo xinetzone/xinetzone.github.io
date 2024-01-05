@@ -7,4 +7,5 @@
 
 quickref
 dockerfile-help
+faqs
 ```
