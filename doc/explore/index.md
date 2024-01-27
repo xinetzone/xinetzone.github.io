@@ -3,4 +3,5 @@
 ```{toctree}
 linux/index
 docker/index
+github/index
 ```
