@@ -1,0 +1,5 @@
+# Linux
+
+```{toctree}
+faqs/index
+```
