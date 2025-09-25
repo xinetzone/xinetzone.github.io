@@ -4,7 +4,8 @@
 :maxdepth: 2
 
 explore/index
-
 doc
-tools
+tools/index
+todo/index
+tips/index
 ```
