@@ -158,7 +158,6 @@ html_theme_options = {
     "footer_end": ["sphinx-version"],
     # "use_download_button": True,
     "toc_title": "导航",
-    "single_page": True,
 }
 
 # html_sidebars = {

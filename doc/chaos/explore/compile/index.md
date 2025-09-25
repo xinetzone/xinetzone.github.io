@@ -1,4 +1,4 @@
-# 编译原理
+# 编译
 
 ```{toctree}
 makefile

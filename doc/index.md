@@ -5,8 +5,6 @@
 :maxdepth: 2
 :hidden:
 
-explore/index
-compile/index
 inventory/index
 chaos/index
 about/index
