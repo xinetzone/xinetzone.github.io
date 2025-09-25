@@ -23,3 +23,8 @@ Host github.com
   User git
   PreferredAuthentications publickey```
 ```
+
+## GitHub 资源
+
+- [Primer Design System](https://primer.style/)
+- [beaudar/beaudar: 基于 GitHub issue 的轻量评论插件，Utterances 的中文版本](https://github.com/beaudar/beaudar)
