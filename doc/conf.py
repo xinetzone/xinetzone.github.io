@@ -147,17 +147,6 @@ html_theme_options = {
         "json_url": json_url,
         "version_match": switcher_version,
     },
-    "use_edit_page_button": True,
-    "show_nav_level": 0,
-    "show_toc_level": 0,
-    "navigation_with_keys": True,
-    "collapse_navigation": False,
-    "navbar_align": "content", # "right", "left", "content"
-    "secondary_sidebar_items": [ "page-toc.html"],
-    "footer_start": ["version-switcher", ],
-    "footer_end": ["sphinx-version"],
-    # "use_download_button": True,
-    "toc_title": "导航",
 }
 
 # html_sidebars = {
