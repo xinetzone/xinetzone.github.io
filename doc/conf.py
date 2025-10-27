@@ -191,3 +191,6 @@ def setup(app):
 
 # -- 自定义网站的标题 --------------
 # html_title = '动手学习 Python'
+
+# GitHub 统计卡片插件
+extensions.append("mystx.ext.github_readme_stats")
